@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Turn your lecture PDFs into quizzes and flashcards with StudySmart.">
+  <title>StudySmart | Learn Smarter</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">StudySmart<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#features">Features</a>
+      <a href="#how-it-works">How it works</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">YOUR PERSONAL STUDY COMPANION</p>
+      <h1>Study smarter.<br><span>Not harder.</span></h1>
+      <p class="hero-description">
+        Turn your lecture PDFs into practice quizzes and flashcards.
+        Spend less time preparing and more time learning.
+      </p>
+
+      <label class="upload-button" for="pdf-upload">
+        Choose your PDF
+      </label>
+      <input id="pdf-upload" type="file" accept=".pdf,application/pdf" hidden>
+      <p id="upload-message" class="upload-message" aria-live="polite">
+        Supports text-based and scanned PDFs.
+      </p>
+    </section>
+
+    <section id="features" class="features">
+      <article class="feature-card">
+        <span class="feature-icon">✦</span>
+        <h2>Practice quizzes</h2>
+        <p>Test your understanding with questions generated from your notes.</p>
+      </article>
+
+      <article class="feature-card">
+        <span class="feature-icon">▤</span>
+        <h2>Smart flashcards</h2>
+        <p>Review key terms and concepts at your own pace.</p>
+      </article>
+
+      <article class="feature-card">
+        <span class="feature-icon">✓</span>
+        <h2>Track your progress</h2>
+        <p>Check your answers and review concepts that need more practice.</p>
+      </article>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+      <h2>Three steps to better studying</h2>
+      <p>Upload your notes, generate study materials, and start practising.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>StudySmart · Your notes, your practice, your progress.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
