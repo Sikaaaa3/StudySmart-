@@ -1,4 +1,4 @@
-/* ===== GENERAL STYLES ===== */
+/* General Styles */
 * {
   margin: 0;
   padding: 0;
@@ -26,7 +26,7 @@ body {
   line-height: 1.6;
 }
 
-/* ===== HEADER ===== */
+/* Header */
 .site-header {
   display: flex;
   align-items: center;
@@ -63,7 +63,7 @@ body {
   color: var(--primary);
 }
 
-/* ===== HERO SECTION ===== */
+/* Hero Section */
 .hero {
   text-align: center;
   padding: 95px 20px 75px;
@@ -118,7 +118,7 @@ body {
   font-size: 0.88rem;
 }
 
-/* ===== FEATURE CARDS ===== */
+/* Features cards */
 .features {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -176,7 +176,7 @@ body {
 }
 
 
-/* ===== HOW IT WORKS ===== */
+/* How it works*/
 .how-it-works {
   text-align: center;
   padding: 55px 20px 75px;
@@ -192,7 +192,7 @@ body {
   color: var(--muted);
 }
 
-/* ===== FOOTER ===== */
+/* footer */
 footer {
   padding: 24px;
   text-align: center;
@@ -245,7 +245,7 @@ footer {
 }
 
 
-/* ===== FLASHCARDS PAGE ===== */
+/* flashcards page  */
 .flashcards-page {
   max-width: 850px;
   margin: 0 auto;
@@ -390,7 +390,7 @@ footer {
 }
 
 
-/* ===== QUIZ PAGE ===== */
+/* Quiz page */
 
 .quiz-page {
   max-width: 850px;
@@ -547,7 +547,7 @@ footer {
   }
 }
 
-/* ===== RESULTS PAGE ===== */
+/* Result page */
 
 .results-page {
   max-width: 850px;
