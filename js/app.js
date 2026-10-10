@@ -591,23 +591,7 @@ restartButton.addEventListener("click", function () {
   displayQuestion();
 });
 
-// Show the quiz after clicking Start Quiz
-const startScreen = document.getElementById("quiz-start-screen");
-const startButton = document.getElementById("start-quiz-button");
-
-quizContent.hidden = true;
+// Start the quiz when the page loads
+quizContent.hidden = false;
 quizResults.hidden = true;
-
-if (startButton && startScreen) {
-  startButton.addEventListener("click", function () {
-    startScreen.hidden = true;
-    quizContent.hidden = false;
-
-    currentQuestion = 0;
-    score = 0;
-    selectedAnswer = null;
-    answerChecked = false;
-
-    displayQuestion();
-  });
-}
+displayQuestion();
