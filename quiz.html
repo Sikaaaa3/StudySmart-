@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz | StudySmart</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">StudySmart<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="flashcards.html">Flashcards</a>
+      <a href="quiz.html">Quiz</a>
+    </nav>
+  </header>
+
+  <main class="quiz-page">
+
+    <section class="quiz-heading">
+      <p class="eyebrow">TEST YOUR KNOWLEDGE</p>
+      <h1>Practice <span>Quiz</span></h1>
+      <p>Answer the questions and see how well you understand the lesson.</p>
+    </section>
+
+    <section id="quiz-content" class="quiz-container" hidden></section>
+
+    <div class="quiz-top">
+      <p id="question-counter">Question 1 of 8</p>
+      <p id="score-display">Score: 0</p>
+    </div>
+
+    <div class="quiz-progress">
+      <div id="progress-bar"></div>
+    </div>
+
+    <h2 id="question-text">Loading question...</h2>
+
+    <div id="answer-options" class="answer-options"></div>
+
+    <p id="feedback-message" aria-live="polite"></p>
+
+    <button id="submit-button" class="primary-button" type="button">
+      Check Answer
+    </button>
+
+    <button id="next-question-button" class="primary-button" type="button" hidden>
+      Next Question
+    </button>
+
+    <div id="quiz-results" hidden>
+      <h2>Quiz Completed!</h2>
+      <p id="final-score"></p>
+      <p id="result-message"></p>
+      <button id="restart-button" class="primary-button" type="button">
+        Try Again
+      </button>
+      <p>
+        <a href="results.html">View Results</a>
+      </p>
+    </div>
+
+    </section>
+
+    <p class="back-home">
+      <a href="index.html">← Back to Home</a>
+    </p>
+
+    <div id="quiz-start-screen">
+      <h2>Ready to Test Your Knowledge?</h2>
+      <p>Click below when you are ready to begin.</p>
+      <button id="start-quiz-button" type="button">
+        Start Quiz
+      </button>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>StudySmart · Your notes, your practice, your progress.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcards | StudySmart</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">StudySmart<span>.</span></a>
+
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="flashcards.html">Flashcards</a>
+      <a href="quiz.html">Quiz</a>
+    </nav>
+  </header>
+
+  <main class="flashcards-page">
+    <section class="flashcards-heading">
+      <p class="eyebrow">LEARN AT YOUR OWN PACE</p>
+      <h1>Smart <span>Flashcards</span></h1>
+      <p>Test your memory, reveal the answers, and keep learning.</p>
+    </section>
+
+    <section class="flashcard-area">
+      <p id="card-counter" class="card-counter">Card 1 of 5</p>
+
+      <div id="flashcard" class="flashcard">
+        <p id="card-label" class="card-label">QUESTION</p>
+        <h2 id="card-content">What is a variable in JavaScript?</h2>
+        <p id="card-hint">Think about it before revealing the answer.</p>
+      </div>
+
+      <button id="reveal-button" class="primary-button" type="button">
+        Reveal Answer
+      </button>
+
+      <div class="card-navigation">
+        <button id="previous-button" class="secondary-button" type="button">
+          ← Previous
+        </button>
+
+        <button id="next-button" class="secondary-button" type="button">
+          Next →
+        </button>
+      </div>
+    </section>
+
+    <p class="back-home">
+      <a href="index.html">← Back to Home</a>
+    </p>
+  </main>
+
+  <footer>
+    <p>StudySmart · Your notes, your practice, your progress.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>

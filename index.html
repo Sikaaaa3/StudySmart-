@@ -10,11 +10,14 @@
 </head>
 
 <body>
+
   <header class="site-header">
     <a class="logo" href="index.html">StudySmart<span>.</span></a>
+
     <nav aria-label="Main navigation">
-      <a href="#features">Features</a>
-      <a href="#how-it-works">How it works</a>
+      <a href="index.html">Home</a>
+      <a href="flashcards.html">Flashcards</a>
+      <a href="quiz.html">Quiz</a>
     </nav>
   </header>
 
@@ -36,25 +39,32 @@
       </p>
     </section>
 
+
     <section id="features" class="features">
-      <article class="feature-card">
+      <a href="quiz.html" class="feature-card">
         <span class="feature-icon">✦</span>
         <h2>Practice quizzes</h2>
         <p>Test your understanding with questions generated from your notes.</p>
-      </article>
+        <span class="feature-link">Start a quiz →</span>
+      </a>
 
-      <article class="feature-card">
+      <a href="flashcards.html" class="feature-card">
         <span class="feature-icon">▤</span>
         <h2>Smart flashcards</h2>
         <p>Review key terms and concepts at your own pace.</p>
-      </article>
+        <span class="feature-link">Study flashcards →</span>
+      </a>
 
-      <article class="feature-card">
+      <a href="results.html" class="feature-card">
         <span class="feature-icon">✓</span>
         <h2>Track your progress</h2>
         <p>Check your answers and review concepts that need more practice.</p>
-      </article>
+        <span class="feature-link">View results →</span>
+      </a>
     </section>
+
+
+
 
     <section id="how-it-works" class="how-it-works">
       <h2>Three steps to better studying</h2>
@@ -65,7 +75,8 @@
   <footer>
     <p>StudySmart · Your notes, your practice, your progress.</p>
   </footer>
-
+  <!-- PDF.js library for reading PDF documents -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
   <script src="js/app.js"></script>
 </body>
 
